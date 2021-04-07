@@ -4,7 +4,7 @@ import { AddressZero } from '@ethersproject/constants'
 import { JsonRpcSigner, Web3Provider } from '@ethersproject/providers'
 import { BigNumber } from '@ethersproject/bignumber'
 import { abi as IUniswapV2Router02ABI } from '@uniswap/v2-periphery/build/IUniswapV2Router02.json'
-import { ChainId, JSBI, Percent, Token, CurrencyAmount, Currency, ETHER, ROUTER_ADDRESS } from '@sushiswap/sdk'
+import { ChainId, JSBI, Percent, Token, CurrencyAmount, Currency, ETHER, ROUTER_ADDRESS } from 'sushi-sdk'
 import { TokenAddressMap } from '../state/lists/hooks'
 import ethers from 'ethers'
 
@@ -134,6 +134,15 @@ const builders = {
       default:
         return `${prefix}/${type}/${data}`
     }
+  },
+  kuchain: (chainName = '', data: string, type: 'transaction' | 'token' | 'address' | 'block') => {
+    const prefix = `https://${chainName ? `${chainName}.` : ''}hecoinfo.com`
+    switch (type) {
+      case 'transaction':
+        return `${prefix}/tx/${data}`
+      default:
+        return `${prefix}/${type}/${data}`
+    }
   }
 }
 
@@ -216,6 +225,10 @@ const chains: ChainObject = {
   [ChainId.HECO_TESTNET]: {
     chainName: 'testnet',
     builder: builders.heco
+  },
+  [ChainId.KUCHAIN_TEST]: {
+    chainName: 'testnet',
+    builder: builders.kuchain
   }
 }
 

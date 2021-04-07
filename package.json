@@ -128,5 +128,7 @@
     ]
   },
   "license": "GPL-3.0-or-later",
-  "dependencies": {}
+  "dependencies": {
+    "sushi-sdk": "^0.0.4"
+  }
 }

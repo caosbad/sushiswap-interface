@@ -1,5 +1,5 @@
 import { SUSHI, PRELOADED_PROPOSALS } from './../../constants/index'
-import { TokenAmount } from '@sushiswap/sdk'
+import { TokenAmount } from 'sushi-sdk'
 import { isAddress } from 'ethers/lib/utils'
 import { useGovernanceContract, useUniContract } from '../../hooks/useContract'
 import { useSingleCallResult, useSingleContractMultipleData } from '../multicall/hooks'

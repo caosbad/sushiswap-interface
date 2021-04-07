@@ -7,7 +7,7 @@ import { LatticeConnector } from '@web3-react/lattice-connector'
 
 import { FortmaticConnector } from './Fortmatic'
 import { NetworkConnector } from './NetworkConnector'
-import { ChainId } from '@sushiswap/sdk'
+import { ChainId } from 'sushi-sdk'
 
 const RPC = {
   [ChainId.MAINNET]: 'https://eth-mainnet.alchemyapi.io/v2/q1gSNoSMEzJms47Qn93f9-9Xg5clkmEC',
@@ -53,7 +53,9 @@ export const injected = new InjectedConnector({
     43114, // avalanche
     43113, // fuji
     128, // heco
-    256 // heco testnet
+    256, // heco testnet
+    322, // kuchain testnet
+    321 // kuchain
   ]
 })
 

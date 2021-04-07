@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react'
-import { Currency, Pair } from '@sushiswap/sdk'
+import { Currency, Pair } from 'sushi-sdk'
 import styled from 'styled-components'
 import { darken } from 'polished'
 

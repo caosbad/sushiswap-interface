@@ -1,4 +1,4 @@
-import { TokenAmount } from '@sushiswap/sdk'
+import { TokenAmount } from 'sushi-sdk'
 import React, { useEffect } from 'react'
 import { X } from 'react-feather'
 import styled, { keyframes } from 'styled-components'

@@ -2605,10 +2605,10 @@
   resolved "https://registry.yarnpkg.com/@sushiswap/core/-/core-1.4.2.tgz#065a6613f842ab7ac6d12878072b59327bffa296"
   integrity sha512-Khd2i6Bob9uk7dCgVkhUioEoxRP28m6aj25MegAHvnJyxZPVzZDhxSkeL6wdv5MeAp2DwHkYqUq03KDfVTTP4Q==
 
-"@sushiswap/default-token-list@3.5.0":
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/@sushiswap/default-token-list/-/default-token-list-3.5.0.tgz#8b233ef741b4e16aba6e78454f5d73a3e674da47"
-  integrity sha512-BsxKedAiq7msuZpl2+NZqFKS+c6qEk0FHg01bVbZSk4p/p/tlvLaYcDwm0K7KFYf//S3rR9BtZKW7ZLP1Xp4oQ==
+"@sushiswap/default-token-list@3.6.0":
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/@sushiswap/default-token-list/-/default-token-list-3.6.0.tgz#e8f63118bce221399448c33c245c1b596fc8fb8f"
+  integrity sha512-qHGZu3hub6vsZjREQSNS3BBKnGTIgyPrGwHgqAFJBPEgplkRdCnAPUs8dKhjcjWYJpKBj8pisC8SzR586Doi+w==
 
 "@sushiswap/sdk@5.0.0-canary.5":
   version "5.0.0-canary.5"
@@ -16446,6 +16446,19 @@ supports-color@^6.1.0:
   integrity sha512-qe1jfm1Mg7Nq/NSh6XE24gPXROEVsWHxC1LIx//XNlD9iw7YZQGjZNjYN7xGaEG6iKdA8EtNFW6R0gjnVXp+wQ==
   dependencies:
     has-flag "^3.0.0"
+
+sushi-sdk@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/sushi-sdk/-/sushi-sdk-0.0.4.tgz#7c18c53671edd15612b46e18a008a4519486690f"
+  integrity sha512-wWiI4F9+BJX9jrb05EfrCgB/SymyyzRexRcZlIatBasP+UDreTneOyDSVswcgcCeFDOEjpjC5h9zGaIb3GzQ6A==
+  dependencies:
+    "@uniswap/v2-core" "^1.0.0"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
 
 svg-parser@^2.0.0:
   version "2.0.4"

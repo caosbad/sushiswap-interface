@@ -1,4 +1,4 @@
-import { Trade, TradeType } from '@sushiswap/sdk'
+import { Trade, TradeType } from 'sushi-sdk'
 import { useActiveWeb3React } from 'hooks'
 import React, { useContext } from 'react'
 import styled, { ThemeContext } from 'styled-components'

@@ -1,4 +1,4 @@
-import { Currency } from '@sushiswap/sdk'
+import { Currency } from 'sushi-sdk'
 import React from 'react'
 import styled from 'styled-components'
 import CurrencyLogo from '../CurrencyLogo'

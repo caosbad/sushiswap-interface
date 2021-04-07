@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token, ChainId } from '@sushiswap/sdk'
+import { Currency, ETHER, Token, ChainId } from 'sushi-sdk'
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
 

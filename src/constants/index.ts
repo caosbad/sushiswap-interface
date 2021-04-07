@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent, Token, WETH } from '@sushiswap/sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from 'sushi-sdk'
 import { AbstractConnector } from '@web3-react/abstract-connector'
 
 import { fortmatic, injected, portis, lattice, walletconnect, walletlink } from '../connectors'
@@ -49,7 +49,8 @@ export const SUSHI: ChainTokenMap = {
   ),
   [ChainId.GÖRLI]: new Token(ChainId.GÖRLI, '0x0769fd68dFb93167989C6f7254cd0D766Fb2841F', 18, 'SUSHI', 'SushiToken'),
   [ChainId.KOVAN]: new Token(ChainId.KOVAN, '0x0769fd68dFb93167989C6f7254cd0D766Fb2841F', 18, 'SUSHI', 'SushiToken'),
-  [ChainId.FANTOM]: new Token(ChainId.KOVAN, '0xae75A438b2E0cB8Bb01Ec1E1e376De11D44477CC', 18, 'SUSHI', 'SushiToken')
+  [ChainId.FANTOM]: new Token(ChainId.KOVAN, '0xae75A438b2E0cB8Bb01Ec1E1e376De11D44477CC', 18, 'SUSHI', 'SushiToken'),
+  [ChainId.KUCHAIN_TEST]: new Token(ChainId.KUCHAIN_TEST, '0x53670943c40532DC188C0c51f4ED8Ba477245A5E', 18, 'SUSHI', 'SushiToken')
 }
 
 export const COMMON_CONTRACT_NAMES: { [address: string]: string } = {
@@ -82,7 +83,9 @@ const WRAPPED_NATIVE_ONLY: ChainTokenList = {
   [ChainId.AVALANCHE]: [WETH[ChainId.AVALANCHE]],
   [ChainId.FUJI]: [WETH[ChainId.FUJI]],
   [ChainId.HECO]: [WETH[ChainId.HECO]],
-  [ChainId.HECO_TESTNET]: [WETH[ChainId.HECO_TESTNET]]
+  [ChainId.HECO_TESTNET]: [WETH[ChainId.HECO_TESTNET]],
+  [ChainId.KUCHAIN_TEST]: [WETH[ChainId.KUCHAIN_TEST]],
+  [ChainId.KUCHAIN]: [WETH[ChainId.KUCHAIN]]
 }
 
 // Default Ethereum chain tokens
