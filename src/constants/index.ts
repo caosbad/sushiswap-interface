@@ -50,7 +50,7 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.GÖRLI]: new Token(ChainId.GÖRLI, '0x0769fd68dFb93167989C6f7254cd0D766Fb2841F', 18, 'SUSHI', 'SushiToken'),
   [ChainId.KOVAN]: new Token(ChainId.KOVAN, '0x0769fd68dFb93167989C6f7254cd0D766Fb2841F', 18, 'SUSHI', 'SushiToken'),
   [ChainId.FANTOM]: new Token(ChainId.KOVAN, '0xae75A438b2E0cB8Bb01Ec1E1e376De11D44477CC', 18, 'SUSHI', 'SushiToken'),
-  [ChainId.KUCHAIN_TEST]: new Token(ChainId.KUCHAIN_TEST, '0x53670943c40532DC188C0c51f4ED8Ba477245A5E', 18, 'SUSHI', 'SushiToken')
+  [ChainId.KUCHAIN_TEST]: new Token(ChainId.KUCHAIN_TEST, '0x4ad45580077e52cC95AdEb219d5Fbd16D8C8de60', 18, 'SUSHI', 'SushiToken')
 }
 
 export const COMMON_CONTRACT_NAMES: { [address: string]: string } = {

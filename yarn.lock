@@ -16447,10 +16447,10 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
-sushi-sdk@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/sushi-sdk/-/sushi-sdk-0.0.4.tgz#7c18c53671edd15612b46e18a008a4519486690f"
-  integrity sha512-wWiI4F9+BJX9jrb05EfrCgB/SymyyzRexRcZlIatBasP+UDreTneOyDSVswcgcCeFDOEjpjC5h9zGaIb3GzQ6A==
+sushi-sdk@0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/sushi-sdk/-/sushi-sdk-0.0.5.tgz#5f6e48a2973659ff2e7f2c57e16e28ab7381d2d6"
+  integrity sha512-RhfLroBfhXAzoy82Vrt3dEZ1XyzhwcBUEZImvR496B6WbdQLz/ye9gpSzNbkMnofPnVQiG20lTGb8hM7oS8MbQ==
   dependencies:
     "@uniswap/v2-core" "^1.0.0"
     big.js "^5.2.2"
